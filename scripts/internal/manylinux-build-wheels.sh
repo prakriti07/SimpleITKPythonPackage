@@ -9,6 +9,9 @@ case $(uname -p) in
     x86_64)
         arch=x64
         ;;
+    aarch64)
+        arch=aarch64
+        ;;
     *)
         die "Unknown architecture $(uname -p)"
         ;;
