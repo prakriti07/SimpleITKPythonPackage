@@ -22,5 +22,4 @@ jobs:
         python-version: 3.6
     - name: Install dependencies
       run: |
-        chmod 777 ./scripts/internal/manylinux-build-wheels_arm64.sh
         ./scripts/dockcross-manylinux-build-wheels.sh
